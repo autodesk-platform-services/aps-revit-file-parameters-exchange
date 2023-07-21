@@ -325,7 +325,7 @@ router.post('/callback/designautomation', async (req, res, next) => {
                 workitemStatus.Status = 'Completed';
                 workitemStatus.ExtraInfo = downloadInfo.body.url;
             }catch(err){
-                console.log("Failed to upload the output excel due to "+ err);
+                console.log("Failed to get the output excel due to "+ err);
                 workitemStatus.Status = 'Failed';
             }
         }else{

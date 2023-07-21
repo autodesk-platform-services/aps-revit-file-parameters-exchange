@@ -1,4 +1,4 @@
-# aps-revit-file-parameters-exchange
+# Export|Import File-based Revit Parameters
 
 [![Node.js](https://img.shields.io/badge/Node.js-14.0-blue.svg)](https://nodejs.org/)
 [![npm](https://img.shields.io/badge/npm-6.0-blue.svg)](https://www.npmjs.com/)
@@ -10,7 +10,7 @@
 
 ![Windows](https://img.shields.io/badge/Plugins-Windows-lightgrey.svg)
 ![.NET](https://img.shields.io/badge/.NET%20Framework-4.8-blue.svg)
-[![Revit-2023](https://img.shields.io/badge/Revit-2023-lightgrey.svg)](http://autodesk.com/revit)
+[![Revit-2024](https://img.shields.io/badge/Revit-2024-lightgrey.svg)](http://autodesk.com/revit)
 
 
 ![Advanced](https://img.shields.io/badge/Level-Advanced-red.svg)
@@ -33,7 +33,7 @@ The custom button in a viewer is provided to make it easier to see the parameter
 # Main Parts of The Work
 1. Create a Revit Plugin to be used within AppBundle of Design Automation for Revit. Please check [PlugIn](./ExportImportExcelPlugin/) 
 
-2. Create your App, upload the AppBundle, define your Activity and test the workitem with the Postman collection under [Postman Collection](./PostmanCollection/), or you can refer ([https://youtu.be/1NCeH7acIko](https://youtu.be/1NCeH7acIko)) and simply use the `Configure` button in the Web Application to create the Appbundle & Activity. 
+2. Refer ([https://youtu.be/1NCeH7acIko](https://youtu.be/1NCeH7acIko)) and simply use the `Configure` button in the Web Application to create the Appbundle & Activity. 
 
 3. Create the Web App to call the workitem.
 
@@ -44,7 +44,7 @@ The custom button in a viewer is provided to make it easier to see the parameter
 1. **APS Account**: Learn how to create a APS Account, activate subscription and create an app at [this tutorial](http://aps.autodesk.com/tutorials). 
 2. **Visual Code**: Visual Code (Windows or MacOS).
 3. **ngrok**: Routing tool, [download here](https://ngrok.com/)
-4. **Revit 2022**: required to compile changes into the plugin
+4. **Revit 2024**: required to compile changes into the plugin
 5. **JavaScript ES6** syntax for server-side.
 6. **JavaScript** basic knowledge with **jQuery**
 
@@ -110,6 +110,7 @@ environment variable examples:
 The following are optional:
 - DESIGN_AUTOMATION_NICKNAME: Only necessary if there is a nickname, APS client id by default.
 - DESIGN_AUTOMATION_ACTIVITY_NAME: Only necessary if the activity name is customized, ExportImportExcelActivity by default.
+- DESIGN_AUTOMATION_ACTIVITY_ALIAS: Only necessary if the activity alias is customized, dev by default.
 
 ### Using the app
 
@@ -158,5 +159,5 @@ This sample is licensed under the terms of the [MIT License](http://opensource.o
 
 ## Written by
 
-Zhong Wu [@johnonsoftware](https://twitter.com/johnonsoftware), [Autodesk Platform Service](http://aps.autodesk.com)
-Eason Kang [@yiskang](https://twitter.com/yiskang), [Autodesk Platform Service](http://aps.autodesk.com)
+- Zhong Wu [@johnonsoftware](https://twitter.com/johnonsoftware), [Autodesk Platform Service](http://aps.autodesk.com)
+- Eason Kang [@yiskang](https://twitter.com/yiskang), [Autodesk Platform Service](http://aps.autodesk.com)

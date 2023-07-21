@@ -1,8 +1,8 @@
 {
     "name": "aps-revit-file-parameters-exchange",
-    "description": "A sample showing how to export & import Revit parameters to Excel by Design Automation Revit service",
+    "description": "A sample showing how to export & import filed-based Revit parameters to Excel by Design Automation Revit service",
     "repository": "https://github.com/autodesk-platform-services/aps-revit-file-parameters-exchange",
-    "logo": "https://avatars0.githubusercontent.com/u/8017462?v=3&s=200",
+    "logo": "https://cdn.autodesk.io/logo/black/logo.png",
     "keywords": [
         "autodesk",
         "aps",
